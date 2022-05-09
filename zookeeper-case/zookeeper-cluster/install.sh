@@ -16,6 +16,8 @@ tar xzvf apache-zookeeper-3.8.0-bin.tar.gz
 
 ln -s apache-zookeeper-3.8.0-bin zookeeper
 
+rm apache-zookeeper-3.8.0-bin.tar.gz
+
 cd zookeeper
 
 echo -e "\n  \033[40;32m *** Config Apache zookeeper... \033[0m\n"
